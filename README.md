@@ -31,7 +31,7 @@ Below is an example of multi-trait genomic prediction and GWAS analysis. Estimat
 # 1. download Julia programming language (https://julialang.org/)
 # 2. open Julia and install JWAS package by running: using Pkg; Pkg.add("JWAS");
 # 3. repeat A.2. to install other required packages in Julia:
-#    using Pkg; Pkg.add("DataFrames"); Pkg.add("CSV"); Pkg.add("Statistics");
+#    using Pkg; Pkg.add(["DataFrames", "CSV", "Statistics", "HTTP"]);
 
 
 # B. Run Bayesian multiple regression methods in JWAS
